@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+// const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const WorkboxPlugin = require('workbox-webpack-plugin');
 const baseWebpackConfig = require('./webpack.base.conf');
 const getClientEnvironment = require('./utils/env');
@@ -46,10 +46,10 @@ module.exports = merge(baseWebpackConfig, {
       clientsClaim: false,
       skipWaiting: false
     }),
-    new BundleAnalyzerPlugin({
-      analyzerMode: 'static',
-      reportFilename: '../bundle-analyzer-plugin-report.html'
-    })
+    // new BundleAnalyzerPlugin({
+    //   analyzerMode: 'static',
+    //   reportFilename: '../bundle-analyzer-plugin-report.html'
+    // })
   ],
   module: {
     rules: [
