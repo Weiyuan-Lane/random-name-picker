@@ -4,7 +4,7 @@
   "description": "Simple HTML5 random name picker for picking lucky draw winner using Web Animations and AudioContext API.",
   "private": true,
   "scripts": {
-    "publish": "webpack --config webpack/webpack.prod.conf.js && node_modules/.bin/subpath-as-branch -p dist -b github-pages",
+    "publish-gh-pages": "webpack --config webpack/webpack.prod.conf.js && node_modules/.bin/subpath-as-branch -p dist -b github-pages",
     "build": "webpack --config webpack/webpack.prod.conf.js",
     "start": "webpack serve --open --config webpack/webpack.dev.conf.js",
     "first-release": "npx standard-version --commit-all --tag-prefix v --release-as 1.0.0 --infile CHANGELOG.md",
