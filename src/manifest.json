@@ -4,8 +4,8 @@
   "description": "(For GDG and GDG Singapore specifically) Simple HTML5 random name picker on Github Pages",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f20c49",
-  "theme_color": "#f20c49",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "assets/images/touch-icons/apple-touch-icon-72x72.png",
