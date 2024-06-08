@@ -12,7 +12,7 @@ include ../mixins/icons
   #lucky-draw
     .title
       //- Pug loader currently does not handle webpack alias so we will use relative path here
-      include ../assets/images/title.svg
+      img(src="~@images/title.png")
 
     .slot
       .slot__outer
@@ -30,8 +30,7 @@ include ../mixins/icons
       div.settings__panel__group
         h1.settings__title Settings
         div.input-group
-          label.input-label(for="name-list") Name List
-          textarea.input-field.input-field--textarea(rows="8" placeholder="Separate each name by line break" id="name-list")
+          textarea.input-field.input-field--textarea(rows="7" placeholder="Separate each name by line break" id="name-list")
 
         div.input-group.input-group--2-column
           label.input-label(for="remove-from-list") Remove winner from list
