@@ -46,6 +46,7 @@
     "pug-html-loader": "^1.1.5",
     "sass-loader": "^14.0.0",
     "style-loader": "^3.3.4",
+    "subpath-as-branch": "^1.0.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
     "uuid": "^9.0.1",
